@@ -49,8 +49,8 @@ React Native YouTube Iframe
 ## 📸 Demo Screenshots
 
 ### 🏠 Home Screen
-![Home Screen](./demoimage/Screenshot 1.png)
+![Home Screen](./demoimage/Screenshot1.png)
 
 ### 📄 Detail Screen
 
-![Detail Screen](./demoimage/Screenshot 2.png)
+![Detail Screen](./demoimage/Screenshot2.png)
