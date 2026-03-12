@@ -46,6 +46,11 @@ Expo Vector Icons
 React Native YouTube Iframe
 ❤️ Favorite Logic
 
-Lưu vào AsyncStorage với key: "fav"
+## 📸 Demo Screenshots
 
-Dữ liệu được load lại khi vào màn Favorite bằng useFocusEffect
+### 🏠 Home Screen
+![Home Screen](./demoimage/Screenshot 1.png)
+
+### 📄 Detail Screen
+
+![Detail Screen](./demoimage/Screenshot 2.png)
