@@ -1,51 +1,51 @@
-# Welcome to your Expo app 👋
+🎬 Movie App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Ứng dụng xem phim được xây dựng bằng React Native (Expo Router), sử dụng TMDB API để hiển thị danh sách phim trending, tìm kiếm phim, xem chi tiết và lưu vào danh sách yêu thích.
 
-## Get started
+🚀 Features
 
-1. Install dependencies
+🔥 Hiển thị Top 20 Trending Movies
 
-   ```bash
-   npm install
-   ```
+🔍 Tìm kiếm phim theo tên
 
-2. Start the app
+📄 Xem chi tiết phim
 
-   ```bash
-   npx expo start
-   ```
+⭐ Hiển thị điểm đánh giá
 
-In the output, you'll find options to open the app in a
+❤️ Thêm / Xoá phim khỏi danh sách yêu thích
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+💾 Lưu danh sách yêu thích bằng AsyncStorage
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+🎥 Xem trailer YouTube ngay trong app
 
-## Get a fresh project
+🛠️ Technologies Used
 
-When you're ready, run:
+React Native
 
-```bash
-npm run reset-project
-```
+Expo Router
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+TypeScript
 
-## Learn more
+TMDB API
 
-To learn more about developing your project with Expo, look at the following resources:
+AsyncStorage
+📌 API Used
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Get Trending Movies
 
-## Join the community
+Search Movies
 
-Join our community of developers creating universal apps.
+Get Movie Detail
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
-"# Movie_App" 
+Get Movie Trailer
+
+React Navigation
+
+Expo Vector Icons
+
+React Native YouTube Iframe
+❤️ Favorite Logic
+
+Lưu vào AsyncStorage với key: "fav"
+
+Dữ liệu được load lại khi vào màn Favorite bằng useFocusEffect
